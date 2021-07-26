@@ -23,6 +23,7 @@
   hosts: f5-test
   connection: local
 
+
   tasks:
     - name: Get an API token
       uri:
